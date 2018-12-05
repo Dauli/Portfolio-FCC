@@ -1,0 +1,257 @@
+@import "compass/css3";
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Navigation section */
+#navbar {
+	overflow: hidden;
+	background-color: #ddd;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.ulnav a {
+	float: right;
+	text-decoration: none;
+	color: green;
+	text-align: center;
+	font-size: 17px;
+	padding: 5px 50px 16px 50px;
+}
+
+.ulnav {
+	list-style-type: none;
+	margin-right: 70px;
+}
+
+/* welcome section */
+#welcome-section {
+	width: 100%;
+	height: 100vh;
+	background-color: #ddd;
+	margin-top: 55px;
+	text-align: center;
+}
+
+.welcome-content {
+	padding: 25vh 15vh;
+}
+
+h1 {
+	font-size: 35px;
+	font-family: "Arial Black", 
+			Gadget, sans-serif;
+}
+
+.welcome-content p {
+	position: relative;
+	bottom: 30px;
+	color: #008080;
+	font-size: 20px;
+	font-family: "Comic Sans MS", 
+			cursive, sans-serif;
+}
+
+/* work or projects section */
+#projects {
+	width: 100%;
+	text-align: center;
+}
+
+.projectTitle {
+	position: relative;
+	top: 50px;
+	font-size: 26px;
+	font-family: "Comic Sans MS", 
+			cursive, sans-serif;
+}
+
+.button {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #008080;
+	border-radius: 3px;
+	width: 200px;
+	margin: auto;
+	cursor: pointer;
+	padding: 7px;
+	background-color: #FFDAB9;
+}
+
+.button a {
+	text-decoration: none;
+	color: #008080;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	flex-wrap: wrap;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item {
+	width: 300px;
+	height: 300px;
+	margin: 60px;
+	background-color: #FFDAB9;
+	border-style: solid;
+	border-color: #008080;
+}
+
+.item:hover {
+	transform: scale(1.1);
+}
+
+img {
+	width: 100%;
+	height: 265px;
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: #008080;
+}
+
+.item a {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Comic Sans MS", 
+			cursive, sans-serif;
+			color: #050;
+}
+
+
+/* contact section */
+#contact {
+	width: 100%;
+	height: 80vh;
+	text-align: center;
+	margin-top: 10px;
+	background-color: #5F9EA0;
+}
+
+.profile-title {
+	padding-top: 50px;
+}
+
+.profile-title h2 {
+	font-size: 26px;
+	font-family: "Comic Sans MS", 
+			cursive, sans-serif;
+}
+
+.profile-title p {
+	position: relative;
+	bottom: 20px;
+	font-size: 18px;
+	color: #000005;
+}
+
+#profile-link {
+	padding-top: 50px;
+}
+
+span a {
+	text-decoration: none;
+}
+
+.contactF {
+	margin: 20px;
+	background-color: white;
+	border-style: solid;
+	font-size: 18px;
+	padding: 37px 11px 37px 11px;
+	border-radius: 50%;
+	color: #0000CD;
+	cursor: pointer;
+	font-weight: 600;
+}
+.contactF a {
+	color: #0000CD;
+}
+.contactF:hover {
+	background-color: #4169E1;
+}
+
+.contactG {
+	margin: 20px;
+	background-color: white;
+	border-style: solid;
+	font-size: 18px;
+	padding: 36px 20px 36px 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	font-weight: 600;
+}
+.contactG a {
+	color: black;
+}
+.contactG:hover {
+	background-color: #808080;
+}
+
+.contactL {
+	margin: 20px;
+	background-color: white;
+	border-style: solid;
+	font-size: 18px;
+	padding: 37px 13px 37px 13px;
+	border-radius: 50%;
+	color: #1E90FF;
+	cursor: pointer;
+	font-weight: 600;
+}
+.contactL a {
+	color: #1E90FF;
+}
+.contactL:hover {
+	background-color: #87CEFA;
+}
+
+.contactE {
+	margin: 20px;
+	background-color: white;
+	border-style: solid;
+	font-size: 18px;
+	padding: 35px 24px 35px 24px;
+	border-radius: 50%;
+	color: #DC143C;
+	cursor: pointer;
+	font-weight: 600;
+}
+.contactE a {
+	color: #DC143C;
+}
+.contactE:hover {
+	background-color: #FF69B4;
+}
+
+
+/* footer section */
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #2F4F4F;
+	height: 100px;
+	margin-top: 0;
+}
+
+footer p {
+	padding-top: 30px;
+	margin-top: 0;
+	font-size: 18px;
+	color: #fff;
+}
